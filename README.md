@@ -1,4 +1,4 @@
-# 🧮 Simple Calculator App (Python & Tkinter)
+# 🔢 Simple Calculator App (Python & Tkinter)
 
 A simple and user-friendly calculator application built with **Python** and **Tkinter**. This app provides a basic interface similar to standard calculators, with error handling via message boxes to alert users of issues.
 
