@@ -50,7 +50,6 @@ def get_result():
                 result_label.config(text='Error')
             else:
                 result_label.config(text=f"{first_num}/{second_num}\n={str(round(first_num / second_num,4))}")
-
     except:
         messagebox.showinfo(title='Error',message="- Number First\n- You can only calculate two numbers.\n- You cannot send more than one transaction.")
 
