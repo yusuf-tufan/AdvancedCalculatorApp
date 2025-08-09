@@ -42,9 +42,9 @@ def get_result():
             result_label.config(text=f"{first_num}+{second_num}\n={str(first_num + second_num)}")
 
         elif operator=='-':
-            result_label.config(text=f"{first_num}-{second_num}\n={str(first_num + second_num)}")
+            result_label.config(text=f"{first_num}-{second_num}\n={str(first_num - second_num)}")
         elif operator=='*':
-            result_label.config(text=f"{first_num}x{second_num}\n={str(first_num + second_num)}")
+            result_label.config(text=f"{first_num}x{second_num}\n={str(first_num * second_num)}")
         else:
             if second_num==0:
                 result_label.config(text='Error')
